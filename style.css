@@ -1,0 +1,132 @@
+body {
+  background-color: azure;
+}
+
+#title {
+  color: darkslategrey;
+  text-align: center;
+}
+
+.bio {
+  font-size: large;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+}
+
+.list-container {
+  display: flex;
+  margin-bottom: 2%;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+#list-title {
+  color: darkslategray;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+li {
+  margin-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover {
+  color: darkolivegreen;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+#img-edit {
+  border-radius: 10px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+#table-title {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkslategray;
+  font-size: x-large;
+}
+
+.head-table {
+  display: flex;
+  justify-content: center;
+}
+
+.table-itens {
+  text-align: center;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.img-itens:hover {
+  transform: scale(1.2, 1.2);
+}
+
+#img-edit:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.img-itens {
+  margin-top: 8%;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+#link-nasa {
+  text-decoration: none;
+  font-size: medium;
+}
+
+a:hover {
+  color: crimson;
+}
+
+#div-btn {
+  display: none;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+}
+
+#message-container {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#container-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#show-hide {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: darkslategrey;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
